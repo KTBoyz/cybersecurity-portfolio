@@ -44,6 +44,8 @@ Collect MAC addresses
 Create a target inventory
 
 Results:
+<img width="545" height="251" alt="overall_device_arp_ping_check" src="https://github.com/user-attachments/assets/0dd42eb0-6ee8-4924-8a95-7da7144b55d1" />
+
 
 Active devices were identified within the network, including:
 

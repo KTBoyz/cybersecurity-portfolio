@@ -73,6 +73,11 @@ Command
 sudo nmap -sS -p- 192.168.1.1
 
 Results
+
+
+<img width="671" height="292" alt="tcp_syn_port_scan_router" src="https://github.com/user-attachments/assets/3e311f5f-b0a1-4afa-b0d6-3fa0b2f9c9c3" />
+
+
 The router exposed multiple accessible services:
 
 22/tcp     open  ssh
@@ -92,6 +97,11 @@ Command
 sudo nmap -sS -sV 192.168.1.33
 
 Results
+
+
+<img width="776" height="187" alt="top_common_ports_1000_laptop" src="https://github.com/user-attachments/assets/5f3ed977-ef15-4583-8a05-bf848c858002" />
+
+
 All 1000 scanned ports are in ignored states.
 1000 filtered tcp ports (no-response)
 
@@ -107,6 +117,11 @@ Command
 sudo nmap -sS -p 80,443,22,53,21 192.168.1.37
 
 Results
+
+
+<img width="560" height="262" alt="port_scan_phone" src="https://github.com/user-attachments/assets/ead00b33-e96e-4ba8-8f39-cfe8c6d65afc" />
+
+
 21/tcp  closed  ftp
 22/tcp  closed  ssh
 53/tcp  closed  domain
@@ -141,6 +156,10 @@ sudo nmap -sS -sV 192.168.1.1
  
 Results:
 
+
+<img width="775" height="281" alt="service_version_scan_router" src="https://github.com/user-attachments/assets/ac058bf8-ba6a-4509-a180-44618f83f623" />
+
+
 22/tcp open ssh Dropbear sshd 2019.78
 53/tcp open domain dnsmasq 2.80
 
@@ -161,6 +180,10 @@ Command:
 sudo nmap -sV -p 80 192.168.1.1
 
 Results:
+
+
+<img width="769" height="216" alt="port_80_service_version_scan_router" src="https://github.com/user-attachments/assets/9ee763e7-73e5-49ed-b07d-7ed6cdfe4987" />
+
 
 80/tcp open tcpwrapped
  
@@ -191,6 +214,11 @@ Command:
 sudo nmap -O 192.168.1.37
 
 Results:
+
+
+<img width="769" height="216" alt="os_fingerprinting_mobile" src="https://github.com/user-attachments/assets/f87f6aa9-fb75-4774-a62b-aa0ffefad233" />
+
+
 Too many fingerprints match this host to give specific OS details.
 
 Analysis:
@@ -216,6 +244,11 @@ Command:
 sudo nmap -O 192.168.1.1
 
 Results:
+
+
+<img width="922" height="344" alt="os_fingerprinting_router" src="https://github.com/user-attachments/assets/ccd43bbc-0fc8-4c12-ba03-17942926b289" />
+
+
 Linux 3.X / 4.X
 ASUS Embedded Device
 ASUS RT-AC66U WAP
